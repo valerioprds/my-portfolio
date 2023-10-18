@@ -37,7 +37,7 @@ nav a {
   color: red;
   border: 2px solid red;
 }
-
+/* welcome section */
 .nav-item a {
   margin: 0 20px;
   font-weight: 300px;
@@ -46,6 +46,35 @@ nav a {
 .nav-item a:hover {
   margin: 0 20px;
   color: red;
+}
+
+@keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid black; /* The typewriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives it some space to breathe */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typewriter 4s steps(44, end) 1s forwards,
+    blink 0.5s step-end infinite;
 }
 
 /* Section hero  */
@@ -67,17 +96,13 @@ nav a {
 }
 
 
-.btn-outline-secondary:hover {
-  background-color: #fff;
-  color: gray;
-  border: solid gray 2px;
-}
+
 /* section tabs  */
 .ul-decoration a:hover {
   color: red;
 }
 .ul-decoration a {
-  color: black;
+  color: white;
   font-size: 22px;
 }
 .ul-decoration a:focus {
