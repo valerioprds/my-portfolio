@@ -95,34 +95,22 @@ nav a {
   font-size: 20px;
 }
 
-
-
 /* section tabs  */
 .ul-decoration a:hover {
   color: red;
 }
 .ul-decoration a {
-  color: white;
+/*   font-size: 44px !important;
+ */  color: white;
   font-size: 22px;
 }
 .ul-decoration a:focus {
-  border-bottom: 3px solid red;
+  background-color: #646464;
 }
 
 .img-tab {
   z-index: 500;
   position: relative;
-}
-.object-1 {
-  background-color: #0d6efd;
-  height: 274px;
-  width: 178%;
-  position: absolute;
-  left: -502px;
-  top: 100px;
-  z-index: -5;
-  border-top-right-radius: 45%;
-  border-bottom-right-radius: 45%;
 }
 
 .lead {
