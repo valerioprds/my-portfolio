@@ -62,22 +62,10 @@ nav a {
   left: 26%;
 }
 
-.object {
-  background-color: #0d6efd;
-  width: 32rem;
-  top: 40%;
-  height: 70%;
-  right: -5%;
-  border-radius: 200px 0 0 200px;
-  position: absolute;
-  z-index: -3;
+.introduction-text {
+  font-size: 20px;
 }
 
-.btn-primary:hover {
-  background-color: #fff;
-  color: blue;
-  border: solid blue 2px;
-}
 
 .btn-outline-secondary:hover {
   background-color: #fff;
