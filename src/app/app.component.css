@@ -69,45 +69,62 @@ nav a {
   font-size: 20px;
 }
 
-/* section tabs  */
-.ul-decoration a:hover {
-  color: red;
-}
-.ul-decoration a {
-/*   font-size: 44px !important;
- */  color: white;
-  font-size: 22px;
-}
-.ul-decoration a:focus {
-  background-color: #646464;
+/* section tabs  */.custom-card {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin: 20px;
 }
 
-.img-tab {
-  z-index: 500;
-  position: relative;
+.custom-card:hover {
+    transform: translateY(-10px);
 }
 
-.lead {
-  padding: 10px 0;
+.image-container {
+    position: relative;
 }
 
-.button-to-project {
-  margin-left: 35px;
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
-.container .btn-more-info {
-  color: #fff;
-  background-color: #0d6efd;
-  border: none;
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 0;
+    transition: .3s ease;
 }
 
-.accordion-button:hover {
-  color: red;
+.overlay-text {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
 }
 
-.accordion-button:focus {
-  color: red;
+.content {
+    padding: 15px;
 }
+
+.content h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.content p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
 /* footer */
 .footer .menu {
   display: flex;
