@@ -206,19 +206,4 @@ nav {
   color: #007bff; /* Cambia este color si deseas otro al hacer hover */
 }
 
-@media (max-width: 680px) {
-  .responsive {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Adjust this if you don't want it to take up the full viewport height */
-  }
 
-  .img-tab {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    left: 0; /* Resetting the left value to ensure it's centered */
-  }
-}
