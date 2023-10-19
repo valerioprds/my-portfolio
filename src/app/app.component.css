@@ -10,14 +10,14 @@ nav {
   background-color: gray;
 }
 
-nav a {
-  color: white;
-  font-size: 30px;
+.nav-link > i {
+  font-size: 35px;
 }
 
-.nav-item li {
-  display: flex;
-  justify-content: flex-end;
+.nav-link:hover > i {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+  color: #007bff; /* Cambia este color si deseas otro al hacer hover */
 }
 
 .navbar-collapse {
