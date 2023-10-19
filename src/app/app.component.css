@@ -7,7 +7,7 @@ body {
 /* NavBar */
 
 nav {
-  background-color: gray;
+  background-color: #a6abca;
 }
 
 .nav-link > i {
@@ -196,6 +196,14 @@ nav {
 
 .bounce-from-bottom {
   animation: bounceFromBottom 1s infinite;
+}
+.social-media > i {
+  font-size: 35px;
+}
+.social-media:hover > i {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+  color: #007bff; /* Cambia este color si deseas otro al hacer hover */
 }
 
 @media (max-width: 680px) {
