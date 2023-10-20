@@ -209,14 +209,11 @@ nav {
   justify-content: space-between;
   list-style: none;
 }
-.hover-class h5 {
-  color: white;
-}
-.hover-class:hover h5 {
-  color: red;
-}
+
+
 .social-media {
   font-size: 24px;
+color: #3a3c47;
 }
 
 .social-media:hover i {
