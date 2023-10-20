@@ -55,7 +55,7 @@ nav {
 }
 
 .img-fluid {
-  position: sticky;
+  position: relative;
   width: 350px;
   height: 350px;
   border-radius: 50%;
@@ -215,3 +215,16 @@ nav {
     left: 28%;
   }
 }
+
+
+@media (max-width: 1050px) {
+  .img-fluid {
+    position: sticky;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    left: 62%;
+  }
+}
+
+
