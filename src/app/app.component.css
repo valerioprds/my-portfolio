@@ -197,20 +197,12 @@ color: #3a3c47;
 
 @media (max-width: 767px) {
   .img-fluid {
-    position: sticky;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
     left: 28%;
   }
 }
 
 @media (max-width: 1050px) {
   .img-fluid {
-    position: sticky;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    left: 62%;
+    left: 20%;
   }
 }
