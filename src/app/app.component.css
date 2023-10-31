@@ -201,8 +201,16 @@ color: #3a3c47;
   }
 }
 
-@media (max-width: 1050px) {
+
+
+@media (min-width: 767px) and (max-width: 900px) {
   .img-fluid {
-    left: 20%;
+    left: -1%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1050px) {
+  .img-fluid {
+    left: 4%;
   }
 }
