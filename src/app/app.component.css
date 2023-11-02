@@ -25,22 +25,13 @@ nav {
   justify-content: space-around;
 }
 
-
-
-
 /* welcome section */
 .nav-item a {
   margin: 0 20px;
   font-weight: 300px;
 }
 
-
-
 /* Section hero  */
-
-
-
-
 
 .illustration-hero {
   z-index: 500;
@@ -129,13 +120,10 @@ nav {
   list-style: none;
 }
 
-
 .social-media {
   font-size: 24px;
-color: #3a3c47;
+  color: #3a3c47;
 }
-
-
 
 .svg-container {
   display: inline-block;
@@ -143,7 +131,8 @@ color: #3a3c47;
   height: 100px;
   margin: 10px;
   overflow: hidden;
-  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
 }
 
 .svg-container:hover {
@@ -168,13 +157,46 @@ color: #3a3c47;
   color: #007bff; /* Cambia este color si deseas otro al hacer hover */
 }
 
-@media (max-width: 767px) {
+
+@media (min-width: 300px) and (max-width: 350px) {
   .img-fluid {
-    left: 28%;
+    left: 10%;
+    width: 250px;
+    height: 250px;
   }
 }
 
+@media (min-width: 350px) and (max-width: 400px) {
+  .img-fluid {
+    left: 7%;
+    width: 300px;
+    height: 300px;
+  }
+}
 
+@media (min-width: 400px) and (max-width: 450px) {
+  .img-fluid {
+    left: 7%;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 500px) {
+  .img-fluid {
+    left: 14%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 550px) {
+  .img-fluid {
+    left: 23%;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 767px) {
+  .img-fluid {
+    left: 23%;
+  }
+}
 
 @media (min-width: 767px) and (max-width: 900px) {
   .img-fluid {
