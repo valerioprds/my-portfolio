@@ -62,6 +62,7 @@ nav {
 
 .custom-card:hover {
   transform: translateY(-10px);
+  background-color: #b7bde2;
 }
 
 .image-container {
