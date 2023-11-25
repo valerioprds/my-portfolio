@@ -8,6 +8,12 @@ body {
 
 nav {
   background-color: #a6abca;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .nav-link > i {
@@ -43,6 +49,12 @@ nav {
   height: 350px;
   border-radius: 50%;
   left: 36%;
+  transition: transform 0.5s ease-in-out;
+
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
 }
 
 .introduction-text {
@@ -61,8 +73,8 @@ nav {
 }
 
 .custom-card:hover {
-  transform: translateY(-10px);
-  background-color: #b7bde2;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transform: translateY(-10px) scale(1.03);
 }
 
 .image-container {
@@ -108,6 +120,15 @@ nav {
 }
 
 /* footer */
+
+footer {
+  animation: slideUp 1s ease-in-out;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
 .footer .menu {
   display: flex;
   height: 100%;
